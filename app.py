@@ -24,7 +24,7 @@ if not google_api_key:
 st.title("BRAINT TUMOUR BOT")
 
 # Load the document
-loader = PyPDFLoader("C:/Users/grace/Desktop/USHAURI/Brain Tumor Patient Care Guide.pdf")
+loader = PyPDFLoader("C:/Users/grace/Desktop/USHAURI/langachain-cbc-cahatbot/Untitled document-3.pdf")
 data = loader.load()
 
 # Split the document into chunks
